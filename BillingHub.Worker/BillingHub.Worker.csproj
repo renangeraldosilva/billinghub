@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-BillingHub.Worker-cbb2bb1c-ecce-4de8-839d-35b30cf1f216</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BillingHub.Application\BillingHub.Application.csproj" />
+    <ProjectReference Include="..\BillingHub.Infrastructure\BillingHub.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

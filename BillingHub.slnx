@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="BillingHub.Api/BillingHub.Api.csproj" />
+  <Project Path="BillingHub.Application/BillingHub.Application.csproj" />
+  <Project Path="BillingHub.Domain/BillingHub.Domain.csproj" />
+  <Project Path="BillingHub.Infrastructure/BillingHub.Infrastructure.csproj" />
+  <Project Path="BillingHub.IntegrationTests/BillingHub.IntegrationTests.csproj" />
+  <Project Path="BillingHub.UnitTests/BillingHub.UnitTests.csproj" />
+  <Project Path="BillingHub.Worker/BillingHub.Worker.csproj" />
+</Solution>
